@@ -1,0 +1,292 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Istok Web', sans-serif;;
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.navbar-default {
+    border-bottom: 3px solid #ea9b31;
+}
+
+.login > ul > li{
+    list-style: none;
+    padding-top: 20px;
+}
+
+.login > ul > li > a {
+    color: #444;
+}
+
+.topnav {
+    font-size: 14px; 
+}
+
+.lead-1 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.lead-2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.intro-header {
+    background: url(../css/images/hero-bkg.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 300px 0px;
+}
+
+.intro-message {
+    position: relative;
+    padding: 5% 0px;
+}
+
+#tagline {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #000;
+}
+
+.intro-message > h3 {
+    color: #000;
+}
+
+.cta-button {
+    padding-top: 20%;
+}
+
+.cta-button > li {
+    list-style: none;
+}
+
+.btn-default {
+    background-color: #003c60;
+    color: #fff;
+}
+
+#side-buttons {
+    left: 1111px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+
+}
+
+#side-buttons > .btn-contact {
+    background-color: #4fbbeb;
+    color: #fff;
+}
+
+#side-buttons > .btn-demo {
+    background-color: #ea9b31;
+    color: #fff;
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section {
+    padding: 40px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section img {
+    width: 70%;
+}
+
+.less img {
+    width: 40%;
+}
+
+.content-section-a {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.video {
+    background-color: #eee;
+    padding: 200px;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    background-color: #003c60;
+}
+
+.content-section-b h4 {
+    color: #fff;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+#ag-data {
+    background: url(../css/images/ag-home.jpg) no-repeat center top;
+    background-size: cover;
+    height: 100%;
+}
+
+#ag-data, .form-message {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 50px;
+    color: #000;
+    font-size: 18px;
+}
+
+.ag-btn {
+    background-color: #ea9b31;
+}
+
+/* Call to Action */
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
+/* Footer */
+
+footer {
+    padding: 25px 0;
+    background-color: #6d6e71;
+    color: #fff;
+}
+
+
+/* sign up modal */
+
+.modal-body {
+    height: 400px;
+    border-radius: none;
+}
+
+.modal-body  > .contact > .text-center > .input-text {
+    padding: 5px 40px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    background-color: #dadbdb;
+    border: none;
+}
+
+.modal-body > .contact > .input-email {
+     padding: 5px 169px;
+     margin-left: 29px;
+     margin-bottom: 20px;
+     background-color: #dadbdb;
+     border: none;
+}
+
+.modal-body > .contact > .input-message {
+    padding: 100px 164px;
+    margin-left: 29px;
+    text-align: center;
+}
+
+.btn-modal {
+    background-color: #4fbbeb;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
