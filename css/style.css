@@ -50,6 +50,10 @@ li.active:after {
     border-bottom: 3px solid #ea9b31;
 }
 
+.navbar-brand > img {
+    width: 50%;
+}
+
 .login > ul > li{
     list-style: none;
     padding-top: 20px;
