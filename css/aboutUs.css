@@ -1,0 +1,74 @@
+.irma > p {
+  color: #fff;
+  background-color: #ea9b31;
+  width: 350px;
+  padding: 10px;
+}
+
+.brad > p {
+  color: #fff;
+  background-color: #4fbbeb;
+  width: 350px;
+  padding: 10px;
+}
+
+.title-today > h4 {
+  color: #fff;
+  background-color: #003c60;
+  padding: 10px;
+}
+
+.title-today > h3 {
+  color: #fff;
+  background-color: #003c60;
+  padding: 10px;
+}
+
+.birth-montage {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border: 2px solid #003c60;
+  margin: 0; 
+}
+
+.irma > h3 {
+  color: #fff;
+  background-color: #ea9b31;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+
+}
+
+.brad > h3 {
+  color: #fff;
+  background-color: #4fbbeb;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.irma-info {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border: 2px solid #ea9b31;
+  margin: 0; 
+}
+
+.brad-info {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border: 2px solid #4fbbeb;
+  margin: 0; 
+}
+
+
+
+
+
+
+
+
