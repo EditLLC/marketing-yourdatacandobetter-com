@@ -1,3 +1,9 @@
+.content-info {
+  background: url(../css/images/business-process.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100%;
+}
+
 .content-section-solution {
   background-color: #4fbbeb;
   color: #fff;
@@ -7,4 +13,47 @@
 
 .content-info {
   background-color: #eee;
+}
+.fa-thumb-tack {
+  color: #4fbbeb;
+  margin-right: 10px;
+}
+
+.fa-lightbulb-o {
+  color: #fff;
+  margin-left: 120px;
+}
+
+.fa-wrench {
+  margin-left: 100px;
+}
+
+#your-team {
+  width: 400px;
+  height: 210px;
+  padding: 10px;
+  border: 2px solid #ea9b31;
+  margin: 0; 
+}
+
+.title-your-team > h4 {
+  color: #fff;
+  background-color: #ea9b31;
+  width: 400px;
+  padding: 10px;
+}
+
+.title-our-team > h4 {
+  color: #fff;
+  background-color: #003c60;
+  width: 400px;
+  padding: 10px;
+}
+
+#our-team {
+  width: 400px;
+  height: 210px;
+  padding: 10px;
+  border: 2px solid #003c60;
+  margin: 0; 
 }

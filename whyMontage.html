@@ -19,7 +19,7 @@
     <link href="css/whyMontage.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Istok+Web:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
@@ -164,11 +164,11 @@
     <div class="content-section-a">  
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-sm-6">
+                <div class="col-md-10 col-md-offset-2">
                     <h2>Why Montage?</h2>
                     <p class="lead-1">We seamlessly bridge any type of input into any type of interface. Using standard APIs easy-to-use developer tools, your data display can be up and running quickly with a minimal investment of time and resources. Heres' how it works:</p>
-                    <p class="">Montage pulls in data from each source, schedules routine or real time updates, and translates the data into a common, consumable format. We then can apply logic and data that was once noise can now be used to make decisions.</p>
-                    <p class="">The user interface can be designed by your team or ours. If by your team, we've provided all the tools your developers need to get right to the coding. If by our team, we have the tools and experts in place to built it efficiently and cost effectively for you.</p>
+                    <p class=""><span class="fa fa-thumb-tack"></span>Montage pulls in data from each source, schedules routine or real time updates, and translates the data into a common, consumable format. We then can apply logic and data that was once noise can now be used to make decisions.</p>
+                    <p class=""><span class="fa fa-thumb-tack"></span>The user interface can be designed by your team or ours. If by your team, we've provided all the tools your developers need to get right to the coding. If by our team, we have the tools and experts in place to built it efficiently and cost effectively for you.</p>
                 </div>
             </div>
             <!-- /.ends row -->
@@ -180,11 +180,17 @@
     <div class="content-section-solution">
          <div class="container">
             <div class="row">
+                <div class="col-md-2">
+                  <span class="fa fa-lightbulb-o fa-5x"></span>
+                </div>
                 <div class="col-md-4">
                     <h4>Custom Solutions.</h4>
                     <p class="">Out-of-the-box solutions never work the way you need them to over time. Get exactly what you need and no more.</p>
                 </div>
-                <div class="col-md-4 pull-right">
+                <div class="col-md-2">
+                  <span class="fa fa-wrench fa-5x"></span>
+                </div>
+                <div class="col-md-4">
                     <h4>Schema Builder</h4>
                     <p class="">Schema or schema-less data sources are handled transparently with Montage</p>
                 </div>
@@ -195,10 +201,10 @@
     <!-- /.content-section-solution -->
 
     <a  name="services"></a>
-    <div class="content-section-a content-info">  
+    <div class="content-section-a content-info" id="layer">  
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-sm-6">
+                <div class="col-md-10 col-sm-6 col-md-offset-1">
                     <h2>Simplify your business processes without overhauling legacy systems.</h2>
                     <p class="lead-1">Montage is a data translation platform that solves a common business problem: Hours spent by you or your team collecting and analyzing data in order to get to a resulting decision or action. <br>
                     Montage translates disparate databases, even those that were not designed to work with each other. <br>
@@ -209,7 +215,7 @@
             </div>
         
             <div class="row">
-                <div class="col-md-8 col-sm-6">
+                <div class="col-md-10 col-sm-6 col-md-offset-1">
                     <h2>Shorten development time</h2>
                     <p class="lead-1">Montage enables organizations to build applications that solve problems quickly without the need to program custom interfaces between disparate datasets. <br>
                     Montage allows development teams to focus on building the applications rather than custom programming the integration between datasets used by the application. <br>
@@ -228,29 +234,37 @@
     <div class="content-section-a">  
         <div class="container">
             <div class="row">
-              <div class="col-md-12" >
+              <div class="col-md-12 col-md-offset-1">
                 <h3>Shorten time to market and reduce costs</h3>
               </div>
             </div>  
             <div class="row">
-                <div class="col-md-6">
-                    <h4>Your Team</h4>
-                    <ul class="">
-                      <li>Simple and clean APIs</li>
-                      <li>Eliminates learning curve by using languages of your team's choice</li>
-                      <li>Ease of searching, filtering and retrieval in a language of your choice</li>
-                      <li>Deploys quickly to all platforms</li>
-                      <li>Provides a clean and attractive user interface using the most current technology without replacing your legacy systems</li>
-                    </ul>
+                <div class="col-md-4 col-md-offset-1">
+                    <div class="title-your-team">
+                        <h4>Your Team</h4>
+                    </div>    
+                    <div id="your-team">
+                        <ul class="">
+                          <li><span class="fa fa-thumb-tack"></span>Simple and clean APIs</li>
+                          <li><span class="fa fa-thumb-tack"></span>Eliminates learning curve by using languages of your team's choice</li>
+                          <li><span class="fa fa-thumb-tack"></span>Ease of searching, filtering and retrieval in a language of your choice</li>
+                          <li><span class="fa fa-thumb-tack"></span>Deploys quickly to all platforms</li>
+                          <li><span class="fa fa-thumb-tack"></span>Provides a clean and attractive user interface using the most current technology without replacing your legacy systems</li>
+                        </ul>
+                    </div>    
                 </div>
-                <div class="col-md-6">
-                    <h4>Our Team</h4>
-                    <ul class="">
-                      <li>Quickly scale teams with resources that can adapt to the project demands</li>
-                      <li>Extremely short learning curves and low overhead</li>
-                      <li>Large pool of nimble tech resources at much lower costs than our counterparts in Silicon Valley or elsewhere</li>
-                      <li>Deploys quickly to all platforms</li>
-                    </ul>
+                <div class="col-md-4 col-md-offset-1">
+                    <div class="title-our-team">
+                        <h4>Our Team</h4>
+                    </div>    
+                      <div id="our-team">
+                        <ul class="">
+                          <li><span class="fa fa-thumb-tack"></span>Quickly scale teams with resources that can adapt to the project demands</li>
+                          <li><span class="fa fa-thumb-tack"></span>Extremely short learning curves and low overhead</li>
+                          <li><span class="fa fa-thumb-tack"></span>Large pool of nimble tech resources at much lower costs than our counterparts in Silicon Valley or elsewhere</li>
+                          <li><span class="fa fa-thumb-tack"></span>Deploys quickly to all platforms</li>
+                        </ul>
+                      </div>        
                 </div> 
             </div>       
             <!-- /.ends row -->
