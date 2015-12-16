@@ -21,6 +21,30 @@ h1 {
 ul, li {
     list-style: none;
 }
+ul { 
+    overflow: hidden; 
+}
+
+li.active:after { 
+    background: #ea9b31; 
+    border-width: 1px 1px 0 0; 
+    bottom: -5px;
+    content: ' '; 
+    display: block; 
+    height: 10px;
+    left: 32px;
+    position: absolute; 
+    width: 10px; 
+    z-index: 99; 
+    
+    -webkit-transform: rotate(-45deg); 
+    -webkit-transform-origin: 50% 50%; 
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+    color: #000;
+}
 
 .navbar-default {
     border-bottom: 3px solid #ea9b31;
