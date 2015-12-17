@@ -72,10 +72,32 @@
   margin: 0; 
 }
 
+/*hr lines*/
 
+.first {
+  border: 1px solid #ea9b31;
+  width: 135px;
+  margin-left: -40px;
+}
 
+.second {
+  border: 1px solid #4fbbeb;
+  width: 125px;
+  margin-left: -30px;
+}
 
+.third {
+  border: 1px solid #ea9b31;
+  width: 203px;
+  margin-top: 40px;
+  margin-left: -30px;
+}
 
-
+.fourth {
+  border: 1px solid #4fbbeb;
+  width: 210px;
+  margin-top: 40px;
+  margin-left: -14px
+}
 
 
