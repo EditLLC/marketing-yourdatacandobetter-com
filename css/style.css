@@ -189,7 +189,6 @@ li.active:after {
 }
 
 .content-section-b {
-    border-top: 1px solid #e7e7e7;
     background-color: #003c60;
 }
 
@@ -320,6 +319,7 @@ footer {
     border-radius: 0px !important;
     border: none;
 }
+
 
 
 
