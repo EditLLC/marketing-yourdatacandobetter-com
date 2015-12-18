@@ -102,4 +102,20 @@
   margin-left: -31px
 }
 
+/*media queries*/
+
+@media(max-width:767px) {
+
+    #vertical-line img, .first, .second, .third, .fourth {
+        display: none;
+    }
+}
+
+@media(max-width: 468px) {
+   
+    #vertical-line img {
+        display: none;
+        
+   }
+}
 

@@ -119,21 +119,21 @@ li.active:after {
     background-color: #003c60;
     color: #fff;
 }
+
 .btn-lg {
     padding: 10px;
 }
 
-#side-buttons {
-    /*left: 1111px;*/
-    margin: 0 auto;
-    position: relative;
-    clear: both;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-
+.fixed-side-buttons {
+    height: 310px; 
+    width: auto; 
+    position: fixed; 
+    top: 30%; 
+    z-index: 1000;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    -o-transform: rotate(-90deg); 
 }
 
 #side-buttons > .btn-contact {
@@ -239,11 +239,10 @@ li.active:after {
 }
 
 @media(max-width: 468px) {
-   
+  
     .content-section img {
         width: 20%;
-        
-   }
+    }
 }
 
 /* Footer */
