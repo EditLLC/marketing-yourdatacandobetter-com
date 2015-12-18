@@ -1,6 +1,6 @@
 #vertical-line {
     background: url(../css/images/vertical-line.png) no-repeat;
-    background-position: 665px 100px;
+    background-position: 680px 100px;
     position: relative;
 }
 
@@ -61,6 +61,7 @@
   height: 100%;
   padding: 10px;
   border: 2px solid #ea9b31;
+  background-color: #fff;
   margin: 0; 
 }
 
@@ -69,6 +70,7 @@
   height: 100%;
   padding: 10px;
   border: 2px solid #4fbbeb;
+  background-color: #fff;
   margin: 0; 
 }
 
@@ -88,16 +90,16 @@
 
 .third {
   border: 1px solid #ea9b31;
-  width: 203px;
+  width: 220px;
   margin-top: 40px;
-  margin-left: -30px;
+  margin-left: -33px;
 }
 
 .fourth {
   border: 1px solid #4fbbeb;
-  width: 210px;
+  width: 227px;
   margin-top: 40px;
-  margin-left: -14px
+  margin-left: -31px
 }
 
 

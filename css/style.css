@@ -106,8 +106,9 @@ li.active:after {
     color: #000;
 }
 
+/*get started button*/
 .cta-button {
-    padding-top: 20%;
+    padding-top: 25px;
 }
 
 .cta-button > li {
@@ -118,10 +119,15 @@ li.active:after {
     background-color: #003c60;
     color: #fff;
 }
+.btn-lg {
+    padding: 10px;
+}
 
 #side-buttons {
-    left: 1111px;
+    /*left: 1111px;*/
+    margin: 0 auto;
     position: relative;
+    clear: both;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
@@ -150,19 +156,6 @@ li.active:after {
     .intro-message > h1 {
         font-size: 3em;
     }
-
-    ul.intro-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-}
-
-.network-name {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 2px;
 }
 
 .content-section {
@@ -226,8 +219,8 @@ li.active:after {
 #testimonial {
     padding-top: 50px;
 }
-.quote > img {
-    width: 40%;
+.quote {
+    width: 20%;
 }
 
 .name > h4 {
@@ -235,45 +228,22 @@ li.active:after {
     padding-bottom: 50px;
 }
 
-/* Call to Action */
-
-.call-to-action {
-    padding: 50px 0;
-}
-
-.call-to-action .btn {
-    margin: 10px;
-}
-
 @media(max-width:1199px) {
-    ul.banner-social-buttons {
-        float: left;
-        margin-top: 15px;
+    
     }
 }
 
 @media(max-width:767px) {
-    .banner h2 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 3em;
-    }
 
-    ul.banner-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
     }
 }
 
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
+@media(max-width: 468px) {
+   
+    .content-section img {
+        width: 20%;
+        
+   }
 }
 
 /* Footer */
