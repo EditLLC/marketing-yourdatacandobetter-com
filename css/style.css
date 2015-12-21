@@ -83,7 +83,7 @@ li.active:after {
 .intro-header {
     background: url(../css/images/hero-bkg.jpg) no-repeat center center;
     background-size: cover;
-    padding: 300px 0px;
+    padding: 225px 0px;
 }
 
 .intro-message {
