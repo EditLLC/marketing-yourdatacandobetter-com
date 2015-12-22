@@ -36,11 +36,16 @@
   margin: 0; 
 }
 
+.title-your-team, .title-our-team {
+  padding-top: 25px;
+}
+
 .title-your-team > h4 {
   color: #fff;
   background-color: #ea9b31;
   width: 400px;
   padding: 10px;
+  margin-bottom: 0px; 
 }
 
 .title-our-team > h4 {
@@ -48,6 +53,7 @@
   background-color: #003c60;
   width: 400px;
   padding: 10px;
+  margin-bottom: 0px;
 }
 
 #our-team {
@@ -57,3 +63,4 @@
   border: 2px solid #003c60;
   margin: 0; 
 }
+
