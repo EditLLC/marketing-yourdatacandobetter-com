@@ -41,6 +41,9 @@ li.active:after {
     -webkit-transform-origin: 50% 50%; 
 }
 
+/* -------------------------------- 
+navbar
+-------------------------------- */
 .navbar-default .navbar-nav {
     background-color: #e7e7e7;
 }
@@ -66,6 +69,9 @@ li.active a {
     width: 50%;
 }
 
+/* -------------------------------- 
+login
+-------------------------------- */
 .login > ul > li{
     list-style: none;
     padding-top: 20px;
@@ -119,7 +125,10 @@ li.active a {
     color: #000;
 }
 
-/*get started button*/
+
+/* -------------------------------- 
+get started button
+-------------------------------- */
 .cta-button {
     padding-top: 25px;
 }
@@ -137,6 +146,9 @@ li.active a {
     padding: 10px;
 }
 
+/* -------------------------------- 
+side buttons
+-------------------------------- */
 .fixed-side-buttons {
     height: 310px; 
     width: auto; 
@@ -311,17 +323,18 @@ li.active a {
   }  
 }
 
-/* Footer */
-
-footer {
+/* -------------------------------- 
+footer
+-------------------------------- */
+#footer {
     padding: 25px 0;
     background-color: #6d6e71;
     color: #fff;
 }
 
-
-/* sign up modal */
-
+/* -------------------------------- 
+sign up modal
+-------------------------------- */
 .modal-body {
     height: 400px;
 }
