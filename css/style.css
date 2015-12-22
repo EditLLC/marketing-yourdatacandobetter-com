@@ -180,10 +180,6 @@ li.active a {
     width: 70%;
 }
 
-.less img {
-    width: 40%;
-}
-
 .content-section-a {
     padding: 100px 0;
     background-color: #fff;
@@ -284,15 +280,15 @@ li.active a {
    
     .fixed-side-buttons {
       display: none;
+    }
+
+    .cta-button {
+      padding: 0;
   }  
 }
 
 @media(max-width: 468px) {
   
-    .content-section img {
-        width: 20%;
-    }
-
     li.active:after {
         display: none;
     }
@@ -307,7 +303,11 @@ li.active a {
     }
 
     .fixed-side-buttons {
-      display: none;
+      display: none; 
+    }
+    
+    .cta-button {
+      padding: 0;  
   }  
 }
 
