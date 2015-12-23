@@ -270,7 +270,7 @@ Main components
     position: absolute;
     width: 100%;
     left: 122%;
-    top: 6px;
+    top: -10px;
     font-size: 16px;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
