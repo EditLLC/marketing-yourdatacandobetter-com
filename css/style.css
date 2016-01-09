@@ -324,6 +324,39 @@ side buttons
 }
 
 /* -------------------------------- 
+our services
+-------------------------------- */
+.our-services {
+  background-color: #f8f8f8;
+  padding: 50px;
+}
+
+.our-services .main-title {
+  color: #003c60;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.our-services > .section-content .section-line {
+  display: inline-block;
+  width: 75px;
+  height: 1px;
+  margin: 25px;
+  background-color: #003c60;
+}
+
+.service-icon > .icon i {
+  font-size: 30px;
+  color: #4fbbeb;
+  padding-bottom: 25px;
+}
+
+.service-text > h4 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+/* -------------------------------- 
 footer
 -------------------------------- */
 #footer {
