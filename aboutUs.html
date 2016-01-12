@@ -122,15 +122,22 @@
                   <h4 class="modal-title">Request Demo</h4>
                 </div>
                 <div class="modal-body">
-                  <form class="contact" name="contact" action="" method="POST">
+                  <form class="contact" name="contact" method="POST" action="//formspree.io/iolguin@mntge.com">
                     <div class="text-center">
-                      <input type="text" placeholder="First*" class="input-text">
-                      <input type="text" placeholder="Last*" class="input-text"><br>
-                      <input type="text" placeholder="Company Name*" class="input-text">
-                      <input type="email" placeholder="Phone Number*" class="input-text"><br>
+                      <input type="text" name="name" placeholder="First*" class="input-text" required>
+                      <input type="text" placeholder="Last" class="input-text"><br>
+                      <input type="text" placeholder="Company Name" class="input-text">
+                      <input type="text" placeholder="Phone Number*" class="input-text" required><br>
                     </div>  
-                      <input type="email" placeholder="Email Address*" class="input-email"><br>
-                      <textarea name="message" placeholder="Message*" class="input-message"></textarea>
+                      <input type="email" name="_replyto" placeholder="Email Address*" class="input-email" required><br>
+                      <input type="hidden" name="_cc" value="mmayes@editllc.com" /> 
+
+                      <textarea name="message" placeholder="Message*" class="input-message" required></textarea>
+
+
+                      <input type="hidden" name="_subject" value="Demo requested from yourdatacandobetter.com" />
+
+                      <button type="submit" class="btn btn-default btn-modal pull-right">Send</button>
                   </form>  
                 </div>
                 <div class="modal-footer">
